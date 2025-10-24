@@ -14,6 +14,16 @@ function Courses() {
                 <p>
                     My Expert Interviewee was Oscar Torres Maradiaga. The industry expert video interview can be found at: https://jaelcsonline.blogspot.com/2025/09/week-4.html
                 </p>
+                <h1>CST300 Graduation Writing Assesment for Computing and Design</h1>
+                <h2>Professors Chris Beem & Brian Robertson</h2>
+                <p>Course outcomes for CST300 are to equip students with writing, research, and critical-thinking skills within
+                    the fields of computing and design
+                </p>
+                <h2>Ethics Final Essay </h2>
+                <p>
+                    My final essay ethics paper can be found at:
+                     https://docs.google.com/document/d/e/2PACX-1vSZUdx34-rGkrZscX4q7xd_D6AT_bHZpmayxuSL8Ki8FzIVI6v6ifq-SNrHrKCmIFD-pWX5dMgn1gkA/pub
+                </p>
                 
             </div>         
         </div>
