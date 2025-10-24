@@ -14,6 +14,12 @@ function Courses() {
                 <p>
                     My Expert Interviewee was Oscar Torres Maradiaga. The industry expert video interview can be found at: https://jaelcsonline.blogspot.com/2025/09/week-4.html
                 </p>
+                <h2>Final Research Video Project </h2>
+                <p>
+                    My team and I developed two videos for our final presentation. The links are:
+                </p>
+                <p>https://www.youtube.com/watch?v=OdkkDc02Ktk</p>
+                <p>https://youtu.be/jWQoO-hBeQc</p>
                 <h1>CST300 Graduation Writing Assesment for Computing and Design</h1>
                 <h2>Professors Chris Beem & Brian Robertson</h2>
                 <p>Course outcomes for CST300 are to equip students with writing, research, and critical-thinking skills within
