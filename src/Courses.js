@@ -20,6 +20,9 @@ function Courses() {
                 </p>
                 <p>https://www.youtube.com/watch?v=OdkkDc02Ktk</p>
                 <p>https://youtu.be/jWQoO-hBeQc</p>
+            </div>
+
+            <div className="cst300-container">
                 <h1>CST300 Graduation Writing Assesment for Computing and Design</h1>
                 <h2>Professors Chris Beem & Brian Robertson</h2>
                 <p>Course outcomes for CST300 are to equip students with writing, research, and critical-thinking skills within
@@ -30,7 +33,6 @@ function Courses() {
                     My final essay ethics paper can be found at:
                      https://docs.google.com/document/d/e/2PACX-1vSZUdx34-rGkrZscX4q7xd_D6AT_bHZpmayxuSL8Ki8FzIVI6v6ifq-SNrHrKCmIFD-pWX5dMgn1gkA/pub
                 </p>
-                
             </div>         
         </div>
     );
