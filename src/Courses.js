@@ -3,6 +3,10 @@ import React from "react";
 function Courses() {
     return (
         <div className="courses-container">
+            <div className="courses-title">
+                <h2>Student Portfolio</h2>
+                <h1>Courses</h1>
+            </div>
             <div className="cst349-container">
                 <h1>CST349 Computer Science Proseminar</h1>
                 <h2>Dr. Eric Tao</h2>
@@ -33,7 +37,16 @@ function Courses() {
                     My final essay ethics paper can be found at:
                      https://docs.google.com/document/d/e/2PACX-1vSZUdx34-rGkrZscX4q7xd_D6AT_bHZpmayxuSL8Ki8FzIVI6v6ifq-SNrHrKCmIFD-pWX5dMgn1gkA/pub
                 </p>
-            </div>         
+            </div>
+
+            <div className="cst338-container">
+                <h1>CST338 Software Design</h1>
+            </div>
+
+            <div className="cst363-container">
+                <h1>CST363 Intro to Database Systems</h1>
+            </div>
+
         </div>
     );
 }

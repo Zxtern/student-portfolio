@@ -8,7 +8,7 @@ function Nav() {
                 <img src="/logo-3.jpg" alt="CSUMB Logo" width="500" height="200"></img>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About Me</Link></li>
+                    <li><Link to="/about-me">About Me</Link></li>
                     <li><Link to="/courses">Courses</Link></li>
                 </ul>
             </nav>
