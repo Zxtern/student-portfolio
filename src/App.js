@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import Nav from './Nav.js';
-import Home from './Home.js';
-import About from './About.js';
-import Courses from './Courses.js';
-import AboutMe from './About-Me.js';
+import Nav from './components/Nav.js';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Courses from './pages/Courses.js';
+import AboutMe from './pages/About-Me.js';
 
 
 // The App component serves as the main entry point for the application. 

@@ -72,6 +72,7 @@ set up fixed image backgrounds*/
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  color: #ebf222;
   background-color: rgb(82, 67, 144);
 
   background-image: url("./assets/about-background.jpeg");
@@ -88,6 +89,8 @@ set up fixed image backgrounds*/
   align-items: left;
   padding: 20px;
   background-color: #714685;
+  color: #ffd9d9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .courses-container {
@@ -96,4 +99,6 @@ set up fixed image backgrounds*/
   align-items: left;
   padding: 20px;
   background-color: #403791;
+  color: #9ad17b;
+  font-family: Arial, Helvetica, sans-serif;
 }
