@@ -7,14 +7,17 @@ import React from "react";
 function About() {
     return (
         <div className="about-container">
-            <div className="about-text">
-                <h1>Jael Roman</h1>
-                <h2>Computer Science Student</h2>
-                <h2>Frontend Developer</h2>
-                
-            </div>
-            <div className="self-img">
-                <img src="/self-icon-1.png" alt="self portrait" width="400" height="600"></img>
+            <div className="about-content-container">
+               <div className="about-text-container">
+                    <div className="about-text">
+                        <h1>Jael Roman</h1>
+                        <h2>Computer Science Student</h2>
+                        <h2>Frontend Developer</h2>
+                    </div>
+                </div>
+                <div className="self-img">
+                    <img src="/self-icon-1.png" alt="self portrait" width="400" height="600"></img>
+                </div>
             </div>
         </div>
     );
