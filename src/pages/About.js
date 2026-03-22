@@ -19,6 +19,7 @@ function About() {
                     <img src="/self-icon-1.png" alt="self portrait" width="400" height="600"></img>
                 </div>
             </div>
+            <button>Enter</button>
         </div>
     );
 }
