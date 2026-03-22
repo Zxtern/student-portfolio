@@ -10,11 +10,11 @@ function Nav() {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>
                     <li><Link to="/courses">Courses</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact-me">Contact Me</Link></li>
                 </ul>
             </nav>
-
         </div>
-
     );
 }
 

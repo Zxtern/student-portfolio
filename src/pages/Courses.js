@@ -46,6 +46,9 @@ function Courses() {
             <div className="cst363-container">
                 <h1>CST363 Intro to Database Systems</h1>
             </div>
+            <div className="cst334-container">
+                <h1>CST334 Operating Systems</h1>
+            </div>
 
         </div>
     );
