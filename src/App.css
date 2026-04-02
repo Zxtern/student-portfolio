@@ -90,7 +90,29 @@ set up fixed image backgrounds*/
   background-attachment: fixed; 
 }
 
+.about-bio {
+  flex-direction: column;
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 
+}
+
+.about-me-img img {
+  display: flex;
+  border-radius: 30px;
+  width: 300px;
+  height: auto; /*preserves the image’s original aspect ratio, preventing distortion.*/
+}
+
+.about-me-title {
+  margin-left: 70px;
+}
 
 .about-content-container {
   display: flex;
@@ -143,8 +165,14 @@ set up fixed image backgrounds*/
   align-items: left;
   padding: 20px;
   background-color: #B37AD4;
-  color: #551d76;
+  color: #20072f;
   font-family: Arial, Helvetica, sans-serif;
+}
+.about-me-content {/*I had to make a different container to have the bio and image side by side, otherwise if i used flex-direction: row; in about-me-container, the title would be affected too*/
+  flex-direction: row;
+  display: flex;
+  gap: 30px;
+  margin: 35px;
 }
 
 .self-img img {
@@ -181,8 +209,48 @@ set up fixed image backgrounds*/
   align-items: left;
   padding: 20px;
   background-color: #206ABC;
-  color: #b6d6fb;
+  color: #f1f7fe;
   font-family: Arial, Helvetica, sans-serif;
+}
+.skills-content {
+  margin-left: 70px;
+}
+
+.languages-icons {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.languages-icons img {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  object-fit: contain;
+  box-shadow: 0 5px 20px rgba(0, 0, 0);
+}
+.tools-platforms-icons {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.tools-platforms-icons img {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  object-fit: contain;
+  box-shadow: 0 5px 20px rgba(0, 0, 0);
+}
+.development-tools-icons {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.development-tools-icons img {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  object-fit: contain;
+  box-shadow: 0 5px 20px rgba(0, 0, 0);
 }
 
 .contact-container {
