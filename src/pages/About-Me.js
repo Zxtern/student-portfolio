@@ -10,8 +10,8 @@ function AboutMe() {
         <>
             <div className="about-me-container">
                 <div className="about-me-title">
-                    <h2>Student Portfolio</h2>
-                    <h1>About Me</h1>
+                    <h1>Student Portfolio</h1>
+                    <h2>About Me</h2>
                 </div> 
                 <div className="about-me-content">
                     <div className="about-bio">
