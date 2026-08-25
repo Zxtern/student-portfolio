@@ -102,7 +102,22 @@ function Courses() {
                         including process management, multitasking, and the design challenges involved in running multiple applications efficiently on modern computer systems.
                     </p>
                     <h2>Final Research Group Project</h2>
-                    <p>Content coming soon</p>
+                    <p>For this project, my group and I worked together to write an essay and create a video presentation on a research paper titled "The Case for RAMClouds: Scalable High-Performance Storage Entirely in DRAM" by John Ousterhout.
+                        As a team, we analyzed the research paper's key findings and significance. This project helped strengthen our ability to interpret academic research and collaborate effectively.
+                        Our collaborative group essay can be found <a href="https://docs.google.com/document/d/1Vq9w2s4zsGBxGElvJs71vV2cX6Nmajz2hF6i2BFm9V8/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> here.</a>
+                    </p>
+                    <h2> Final Video Presentation </h2>
+                    <div className="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/ImCy_In-_II?si=dbyUY7f4DBI5EC1V"
+                            title="RAMClouds: Scalable High-Performance Storage Entirely in DRAM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </div>
