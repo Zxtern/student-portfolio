@@ -107,7 +107,7 @@ function Courses() {
                         Our collaborative group essay can be found <a href="https://docs.google.com/document/d/1Vq9w2s4zsGBxGElvJs71vV2cX6Nmajz2hF6i2BFm9V8/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> here.</a>
                     </p>
                     <h2> Final Video Presentation </h2>
-                    <div className="video-container">
+                    <div className="video-container1">
                         <iframe
                             width="560"
                             height="315"
@@ -120,6 +120,72 @@ function Courses() {
                     </div>
                 </div>
             </div>
+
+            <div className="cst311-container">
+                <div className="content1-container">
+                    <h1>CST311 Introduction to Computer Networks</h1>
+                    <h2>Professor Cao Thang Bui</h2>
+                    <p>This course provided the fundamentals of computer networking, including LANs, WANs, TCP/IP,
+                        internet protocols, network security, and network performance. 
+                    </p>
+                    <h2>Example Project - Programming Assignment #3</h2>
+                    <p>For this assignment, I created and built a real-time application that allows two users to communicate over a network.
+                        The project involved creating both the server and client applications, handling multiple user connections,
+                        and ensuring messages were delivered in real-time. Through this project, I gained hands-on experience with how
+                        computers communicate over a network and exchange information.
+                    </p>
+                    <h2>Video Presentation - Programming Assignment #3</h2>
+                    <div className="video-container1"></div>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/nFp9Yn5IOqs?si=tVoCo4uyclrj8I8a"
+                        title="CST311 Programming Assignment #3"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+
+            <div className="cst336-container">
+                <div className="content1-container">
+                    <h1>CST336 Internet Programming</h1>
+                    <h2>Professor Miguel Lara</h2>
+                    <p>In this course, I learned how to build dynamic and responsive web applications by combining front-end and back-end technologies.
+                        Developed applications using server-side programming with Express.js, database integration, RESTful APIs, and responsive web design.
+                        The course emphasized creating interactive web applications that communicate with databases and external web services.
+                    </p>
+                    <h2>Final Project - Medication Organizer App</h2>
+                    <p>For the final project, my group and I developed Medication Organizer, a full-stack application that helps users manage their medications
+                        and daily schedules. In this application, users can manage medication schedules, track doses, and store preferred pharmacy information in one place.
+                        Medication Organizer was built with Node.js, Express.js, MySQL, EJS, JavaScript, HTML, and CSS. The project demonstrates full-stack development, database integration, RESTful APIs, and responsive web design.
+                    </p>
+                </div>
+                <button onClick={() => navigate("/projects")}>Learn More</button>
+            </div>
+
+            <div className="cst370-container">
+                <div className="content1-container">
+                    <h1>CST370 Design and Analysis of Algorithms</h1>
+                    <h2>Professor Shahidul Islam</h2>
+                    <p>Class is in session, content Coming Soon</p>
+                </div>
+            </div>
+
+            <div className="cst462s-container">
+                <div className="content1-container">
+                    <h1>CST462s Race, Gender, Class in the Digital World</h1>
+                    <p>Content Coming Soon</p>
+                </div>
+            </div>
+            <div className="cst328-container">
+                <div className="content1-container">
+                    <h1>CST328 Digital Art and Design</h1>
+                    <p>Content Coming Soon</p>
+                </div>
+            </div>
+
         </div>
     );
 }
