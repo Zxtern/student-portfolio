@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
+import Resume from "./Resume";
 
 //This is the About component, which serves as the "About Me" page for the student portfolio. 
 // It includes a biography of the student, a self-portrait image, and a welcome message.
@@ -37,7 +38,9 @@ function AboutMe() {
             </div>
                 
             </div>
+
             <Skills />
+            <Resume />
         </>
     );
 }

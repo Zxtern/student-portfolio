@@ -14,7 +14,7 @@ function About() {
                     <div className="about-text">
                         <h1>Jael Roman</h1>
                         <h2>Computer Science Student</h2>
-                        <h2>Frontend Developer</h2>
+                        <h2>Software Developer</h2>
                     </div>
                 </div>
                 <div className="self-img">

@@ -67,10 +67,39 @@ function Projects() {
                     allowfullscreen
                 ></iframe>
             </div>
-            <div className="project-three-text">
-                {/*<h2>Final Project Placeholder</h2>
-                <p>Final project description here.</p>*/}
+
+            <div className="project-three-content">
+                <div className="project-three-text">
+                    <h2>Medication Organizer App - Internet Programming Final Project</h2>
+                    <p>Medication Organizer is a full-stack web application developed as a team project for my Internet Programming course. 
+                        Our team designed and built a full-stack web application that helps users manage medications, 
+                        track daily doses, and organize preferred pharmacy information. As the Backend Developer, Routes Developer, 
+                        and Lead QA, I coordinated the team's development by creating GitHub issues, assigning tasks, and ensuring we met 
+                        all project milestones and grading requirements.</p>
+                        <p>My technical contributions included developing Express.js routes, 
+                        integrating the OpenFDA Drug API, implementing browser web storage, adding taken/missed dose tracking, enhancing dose history 
+                        functionality with edit and delete features, and removing obsolete front-end code.</p>
+                </div>
+
+                <div className="project-three-media">
+                    <div className="medication-organizer-icon">
+                        <img src="/medication_organizer.png" alt="Medication Organizer App Icon" width="400" height="auto"></img>
+                    </div>
+
+                </div>
             </div>
+            <div className="video-container">
+                <iframe
+                    width="1120"
+                    height="630"
+                    src="https://www.youtube.com/embed/E34D5KcfHrY?si=7sLexV8b1hdpVJax"
+                    title="Medication Organizer App Demo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
         </div>
     );
 }
